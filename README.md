@@ -8,7 +8,7 @@
 - Piece
     - is valid move 
 
-## extendes to Piece
+## Inheritance to Piece
 - King
 - Queen
 - Knight
