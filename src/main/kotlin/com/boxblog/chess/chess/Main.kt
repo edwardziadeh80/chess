@@ -1,7 +1,8 @@
 package com.boxblog.chess.chess
 
-fun main(args: Array<String>){
-    val player1 = Player("Edward", StoneColor.White)
+import com.boxblog.chess.chess.ui.Board
 
-    println(player1.name)
+fun main(args: Array<String>){
+   val board = Board("Start Game")
+   board.draw()
 }
